@@ -1,0 +1,19 @@
+* {
+    overflow-x: hidden;
+
+}
+
+body {
+    background: linear-gradient(#ffffff, rgb(224, 223, 223));
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    
+}
+
+
+.mygradient{
+    background: linear-gradient(#ffffff, #c0c3c4);
+}
+
+/*i know i'm missing the suitcase, toaster, etc... didn't know how to get to that image*/

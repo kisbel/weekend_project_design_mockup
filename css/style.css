@@ -1,0 +1,30 @@
+body {
+    margin: 20px 180px 40px 180px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 10;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+#peace {
+background-image: url(/Users/kespinal/Desktop/wyncode/weekend_project_design_mockup/pictures/peacesign.png);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+height: 2.5vh;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 85px;
+}

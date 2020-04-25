@@ -1,0 +1,9 @@
+button {
+    background-image: linear-gradient(to right, #32A6E2, cornflowerblue);
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 9px;
+    margin: 10px 20px 10px 20px;
+    border: none;
+}
