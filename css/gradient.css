@@ -1,14 +1,12 @@
 * {
     overflow-x: hidden;
-
 }
 
 body {
     background: linear-gradient(#ffffff, rgb(224, 223, 223));
     height: 100vh;
-    margin: 0;
-    background-repeat: no-repeat;
-    
+    margin: 20px 150px 40px 150px;
+    background-repeat: no-repeat;  
 }
 
 
