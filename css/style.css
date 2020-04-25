@@ -24,14 +24,6 @@ a, a:hover, a:visited {
     /* i am bothered by the my account looking thicker when i highlight it */
 }
 
-#peace {
-background-image: url(/Users/kespinal/Desktop/wyncode/weekend_project_design_mockup/pictures/peacesign.png);
-background-position: center;
-background-size: contain;
-background-repeat: no-repeat;
-height: 2.5vh;
-}
-
 .left-nav {
     display: flex;
     justify-content: space-between;
@@ -60,4 +52,11 @@ height: 2.5vh;
 
 .filter {
     display: flex;
+}
+
+.icons {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 2.5vh;
 }

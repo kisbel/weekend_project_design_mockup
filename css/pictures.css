@@ -1,0 +1,39 @@
+#peace {
+    background-image: url(/Users/kespinal/Desktop/wyncode/weekend_project_design_mockup/pictures/peacesign.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 2.5vh;
+    }
+
+#grid {
+    background-image: url(/Users/kespinal/Desktop/wyncode/weekend_project_design_mockup/pictures/grid.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2vh;
+}
+
+#ol {
+    background-image: url(/Users/kespinal/Desktop/wyncode/weekend_project_design_mockup/pictures/ol.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2vh;
+}
+
+#ul {
+    background-image: url(/Users/kespinal/Desktop/wyncode/weekend_project_design_mockup/pictures/ul.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2vh;
+}
+
+#location {
+    background-image: url(/Users/kespinal/Desktop/wyncode/weekend_project_design_mockup/pictures/location.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2vh;
+}
