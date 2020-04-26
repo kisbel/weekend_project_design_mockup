@@ -15,6 +15,7 @@ h1 {
 
 h2 {
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
     color: lightgrey;   
 }
 
@@ -44,7 +45,7 @@ h2 {
 figure {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
-    color: #415669; 
+    color: #416169; 
     box-shadow: 0 4px 20px -6px grey;
     border-radius: 5px;
     border: none;
@@ -61,3 +62,42 @@ figure {
  figcaption {
     height: 50px;
 } 
+
+.white-under-pics {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+/* SEARCH BAR */
+
+#mountains-search {
+    background: transparent;
+    color: #416169;
+    resize: none;
+    font-size: 20px;
+    border: none;
+    font-family:'Roboto Condensed', sans-serif;
+    overflow: hidden;
+    padding-left: 30px;
+}
+
+#europe-search {
+    background: transparent;
+    color: #416169;
+    resize: none;
+    font-size: 20px;
+    border: none;
+    font-family:'Roboto Condensed', sans-serif;
+    overflow: hidden; 
+    padding-left: 35px;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
