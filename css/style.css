@@ -1,8 +1,9 @@
-/* NAV BAR */
-
 body {
     margin: 20px 150px 40px 150px;
+    footer: none;
 }
+
+/* NAV BAR */
 
 .nav {
     display: flex;
@@ -54,9 +55,9 @@ a, a:hover, a:visited {
     display: flex;
 }
 
-.icons {
+#grid {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 2.5vh;
+    height: 5vh;
 }
