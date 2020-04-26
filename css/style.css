@@ -1,10 +1,6 @@
 body {
     margin: 20px 150px 40px 150px;
-    footer: none;
-    header: none;
 }
-
-
 
 /* NAV BAR */
 
@@ -54,13 +50,55 @@ a, a:hover, a:visited {
 
 /* FILTER BAR */
 
-.filter {
+
+.filter-bar-left {
     display: flex;
 }
 
-#grid {
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 5vh;
+.icons {
+    display: flex;
+    border-right: 1px solid lightgrey;
+    padding-right: 20px;
+}
+
+.prices, .hills-number, .type, .more, .oldest-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 10;
+    padding-left: 25px;
+    color: #59748e;
+    font-weight: bold;
+}
+
+.arrow-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 10;
+    padding-left: 7px;
+    color: #59748e;
+    border-right: 1px solid lightgrey;
+    padding-right: 25px;
+}
+
+.arrow-down-last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 10;
+    padding-left: 7px;
+    color: #59748e;
+    padding-right: 25px;
+}
+
+.filter-bar {
+    display: flex;
+    justify-content: space-between;
 }
