@@ -73,7 +73,7 @@ figure {
 
 /* SEARCH BAR */
 
-#mountains-search {
+#mountains {
     background: transparent;
     color: #416169;
     resize: none;
@@ -84,7 +84,7 @@ figure {
     padding-left: 30px;
 }
 
-#europe-search {
+#europe{
     background: transparent;
     color: #416169;
     resize: none;
