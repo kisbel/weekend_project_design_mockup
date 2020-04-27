@@ -30,6 +30,15 @@ a, a:hover, a:visited {
     width: 105px;
 }
 
+.arrow-down-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #59748e;
+    margin-left: -10px;
+}
 
 /* SEARCH BAR */
 
@@ -42,11 +51,6 @@ a, a:hover, a:visited {
 
 } 
 
-/* .search a, a:hover, a:visited {
-    color: #59748e;
-    text-decoration: none;
-    font-size: 10px;
-} */
 
 /* FILTER BAR */
 
@@ -101,4 +105,5 @@ a, a:hover, a:visited {
 .filter-bar {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
 }

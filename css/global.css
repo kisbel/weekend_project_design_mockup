@@ -1,4 +1,4 @@
-button {
+.button-nav {
     background-image: linear-gradient(to right, #32A6E2, cornflowerblue);
     color: white;
     padding: 15px 30px 15px 30px;
@@ -40,6 +40,7 @@ h2 {
 .two-col-pic {
     width: 100%;
     height: 300px;
+    position: relative;
 }
 
 figure {
@@ -67,6 +68,7 @@ figure {
     display: flex;
     justify-content: center; 
     align-items: center;
+    height: 100px;
 }
 
 /* SEARCH BAR */
@@ -100,5 +102,5 @@ textarea:focus, input:focus {
 .search {
     display: flex;
     align-items: center;
+    flex-direction: row;
 }
-
